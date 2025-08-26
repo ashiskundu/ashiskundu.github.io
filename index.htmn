@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #f5f5f5;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ddd;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #0073e6;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .sidebar {
+      text-align: center;
+    }
+    .sidebar img {
+      border-radius: 50%;
+      width: 150px;
+      margin-bottom: 1rem;
+    }
+    .sidebar h2 {
+      margin-bottom: 0.3rem;
+    }
+    .sidebar p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .sidebar a {
+      display: block;
+      margin: 0.3rem 0;
+      text-decoration: none;
+      color: #0073e6;
+    }
+    .content h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Exploring the P(i)eriodic Table</h1>
+    <nav>
+      <a href="#bio">Short Bio</a>
+      <a href="#research">Research Interests</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <img src="your-photo.jpg" alt="Your Photo">
+      <h2>Your Name</h2>
+      <p>Position / Affiliation<br>He/Him/Dr. (as needed)</p>
+      <p>📍 City, Country</p>
+      <a href="mailto:your.email@example.com">Email</a>
+      <a href="https://orcid.org/xxxx-xxxx-xxxx-xxxx">ORCID</a>
+      <a href="https://scholar.google.com">Google Scholar</a>
+      <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+      <a href="cv.pdf">CV</a>
+    </aside>
+
+    <main class="content">
+      <h2 id="bio">Home</h2>
+      <p>Welcome to my personal website!</p>
+      <p>I am a [position] at [institution], with expertise in [field]. Check out a short bio about myself <a href="#bio">here</a>.</p>
+
+      <h2 id="research">Research Interests</h2>
+      <p>List your areas of expertise here.</p>
+
+      <h2 id="publications">Publications</h2>
+      <p>Add selected publications here or link to your Google Scholar.</p>
+
+      <h2 id="teaching">Teaching</h2>
+      <p>Details about teaching activities or mentoring.</p>
+
+      <h2 id="contact">Contact</h2>
+      <p>Feel free to reach out through email or social media if you want to have a chat.</p>
+    </main>
+  </div>
+</body>
+</html>
