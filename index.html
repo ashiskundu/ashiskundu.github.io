@@ -60,7 +60,8 @@
   section { padding: 28px 0; border-top: 1px solid var(--line); }
   h2 { font-size: 1.3rem; margin: 0 0 12px; }
   p { margin: 0 0 12px; }
-  ul.topics { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  ul.topics { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px 32px; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 560px) { ul.topics { grid-template-columns: 1fr; } }
   ul.topics li { padding-left: 18px; position: relative; }
   ul.topics li::before {
     content: ""; position: absolute; left: 0; top: 0.7em;
@@ -95,16 +96,22 @@
 
   <section>
     <h2>About</h2>
-    <p>I work in computational materials science, studying thermal transport, thermoelectrics, magnetism, and materials under high pressure, with a focus on energy and quantum materials.</p>
+    <p>I am a computational materials scientist working on first-principles calculations of electronic structure, magnetism, and phase stability. My research spans magnetic Heusler alloys, materials under high pressure, lattice dynamics, anharmonicity, and thermal transport.</p>
+    <p>I use DFT, ab initio molecular dynamics, and machine learning to understand how materials work at the atomic level.</p>
   </section>
 
   <section>
     <h2>Research interests</h2>
     <ul class="topics">
-      <li>Thermal and thermoelectric transport in bulk and 2D materials</li>
-      <li>Machine-learning force fields for atomistic simulations</li>
-      <li>Magnetism in alloys</li>
+      <li>Magnetism and electronic structure</li>
+      <li>First-principles calculations and phase stability</li>
       <li>Electronic structure of materials under high pressure</li>
+      <li>Quantum and magnetic materials</li>
+      <li>Materials discovery and high-throughput screening</li>
+      <li>Machine-learning-based atomistic modelling</li>
+      <li>Lattice dynamics, anharmonicity, and thermal transport</li>
+      <li>Electron–phonon interactions</li>
+      <li>Defect physics and defect-induced lattice dynamics</li>
     </ul>
   </section>
 
